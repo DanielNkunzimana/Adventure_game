@@ -8,20 +8,21 @@ namespace AdventureGame
         public int Health;
         public int Gold;
     }
-
+ // Made Entity an abstract class to allow for different types of entities
     abstract class Entity
     {
         // Added '?' to allow Name to be null/empty initially
         public string? Name { get; set; } 
         public abstract void Speak();
     }
-
+// Created an Enemy class that inherits from Entity, allowing for different types of enemies in the future
     class Enemy : Entity
     {
         public int Damage { get; set; }
         public override void Speak() => Console.WriteLine($"{Name} growls at you!");
     }
-
+ // The Game class now manages the game loop and player interactions, 
+ //making it easier to expand with new features
     class Game
     {
         private bool _isRunning = true;
@@ -47,7 +48,8 @@ namespace AdventureGame
             Console.WriteLine("\n--- GAME OVER ---");
             Console.WriteLine($"Final Score for {_playerName}: {_player.Gold} Gold.");
         }
-
+       // The GameLoop method now handles player choices and game events,
+       //  making it easier to manage the flow of the game
         void GameLoop()
         {
             Console.WriteLine($"\n[HP: {_player.Health} | Gold: {_player.Gold}]");
@@ -98,7 +100,8 @@ namespace AdventureGame
             _player.Health = Math.Min(_player.Health + 20, 100);
         }
     }
-
+ // The Program class serves as the entry point for the application, 
+ // starting the game loop
     class Program
     {
         static void Main(string[] args)
