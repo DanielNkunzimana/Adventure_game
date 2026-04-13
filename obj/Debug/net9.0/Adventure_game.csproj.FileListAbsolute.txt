@@ -1,0 +1,14 @@
+D:\Adventure_game\bin\Debug\net9.0\Adventure_game.exe
+D:\Adventure_game\bin\Debug\net9.0\Adventure_game.deps.json
+D:\Adventure_game\bin\Debug\net9.0\Adventure_game.runtimeconfig.json
+D:\Adventure_game\bin\Debug\net9.0\Adventure_game.dll
+D:\Adventure_game\bin\Debug\net9.0\Adventure_game.pdb
+D:\Adventure_game\obj\Debug\net9.0\Adventure_game.GeneratedMSBuildEditorConfig.editorconfig
+D:\Adventure_game\obj\Debug\net9.0\Adventure_game.AssemblyInfoInputs.cache
+D:\Adventure_game\obj\Debug\net9.0\Adventure_game.AssemblyInfo.cs
+D:\Adventure_game\obj\Debug\net9.0\Adventure_game.csproj.CoreCompileInputs.cache
+D:\Adventure_game\obj\Debug\net9.0\Adventure_game.dll
+D:\Adventure_game\obj\Debug\net9.0\refint\Adventure_game.dll
+D:\Adventure_game\obj\Debug\net9.0\Adventure_game.pdb
+D:\Adventure_game\obj\Debug\net9.0\Adventure_game.genruntimeconfig.cache
+D:\Adventure_game\obj\Debug\net9.0\ref\Adventure_game.dll
